@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Kalam', cursive; */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: rgb(93, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    font-family: 'Poppins', sans-serif; 
+    position: fixed;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+
+.menu a:nth-child(6){
+    background: yellowgreen;
+    border-radius: 8px;
+    margin: 0 1rem;
+    color: black;
+}
+
+.menu i{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    cursor:pointer; 
+}
+
+.menu a:hover{
+    background: yellowgreen;
+    border-radius: 8px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.right{
+    flex-basis: 30%;
+}
+
+.right img{
+    border-radius: 50%;
+    
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif; 
+    color: yellowgreen;
+}
+
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 4em;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif; 
+    line-height: 2.5rem;
+}
+
+#hire{
+    text-decoration: none;
+    background: yellowgreen;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+#myp{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 90%;
+    height: 630px;
+    border-radius: 8px;
+}
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+    /* font-size: 1.5rem; */
+}
+.rightbio h1{
+   font-size: 3rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#follow i{
+    color: yellowgreen;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed grey;
+}
+
+.heading span{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 200px 500px;
+}
+
+
+.about .row-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 50px 70px;
+}
+
+.about .row-2 .skills{ 
+    flex: 1 1 40rem;
+    flex-basis: 40%;
+}
+
+.about .row-2 .skills .progress{
+    padding: 0.6rem 0;
+}
+
+.about .row-2 .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.7rem;
+    color: #111;
+    font-weight: 400;
+}
+
+.about .row-2 .skills .progress .bar{
+    width: 100;
+    background: #ccc;
+    overflow: hidden;
+    height: 1rem;
+    border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;
+    background: yellowgreen;
+}
+.about .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 90%;
+}
+
+.about .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 85%;
+}
+
+.about .row-2 .skills .progress:nth-child(3) .bar span{
+    width:85% ;
+}
+
+.about .row-2 .skills .progress:nth-child(4) .bar span{
+    width: 95%;
+}
+
+.about .row-2 .skills .progress:nth-child(5) .bar span{
+    width:90% ;
+}
+
+.about .row-2 .skills .progress:nth-child(6) .bar span{
+    width:90% ;
+}
+
+.about .row-2 .box-container{
+    flex: 1 1 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    flex-basis: 40%;
+}
+
+.about .row-2 .box-container .box{
+    flex: 1 1 15rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+}
+
+.about .row-2 .box-container .box h3{
+    color: yellowgreen;
+    font-size: 3rem;
+}
+
+.about .row-2 .box-container .box p{
+    color:#666;
+    font-size: 1.7rem ;
+}
+
+#services{
+    padding: 100px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 190%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+
+
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.3);
+    gap: 70px;
+}
+
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: yellowgreen;
+}
+.cardimg img{
+    width: 100%;
+}
+
+footer{
+    background: yellowgreen;
+    color: black;
+    font-size: 2.3rem;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+footer i{
+    color: black;
+    margin: 0 2.5rem;
+}
+
+footer p{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project{
+    padding: 90px 10px;
+}
+
+.project h1{
+   font-size: 3rem;
+   padding: 0 600px;
+}
